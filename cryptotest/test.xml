@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="18">
+<bdd class_id="5" tracking_level="0" version="0">
+	<boissons class_id="6" tracking_level="0" version="0">
+		<count>2</count>
+		<item_version>0</item_version>
+		<item class_id="7" tracking_level="0" version="0">
+			<first>biere</first>
+			<second class_id="8" tracking_level="0" version="0">
+				<m_nom>biere</m_nom>
+				<m_mere></m_mere>
+				<m_prix>10</m_prix>
+				<m_disponibilite>1</m_disponibilite>
+				<m_creation>1681653512</m_creation>
+				<m_historique>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>1</item>
+				</m_historique>
+				<m_frigo>-1</m_frigo>
+				<m_total>0</m_total>
+				<m_consigne>0</m_consigne>
+				<m_vol>0</m_vol>
+				<m_reserve>0</m_reserve>
+				<m_consomme>1</m_consomme>
+			</second>
+		</item>
+		<item>
+			<first>biere2</first>
+			<second>
+				<m_nom>biere2</m_nom>
+				<m_mere></m_mere>
+				<m_prix>10</m_prix>
+				<m_disponibilite>1</m_disponibilite>
+				<m_creation>1681653512</m_creation>
+				<m_historique>
+					<count>0</count>
+					<item_version>0</item_version>
+				</m_historique>
+				<m_frigo>0</m_frigo>
+				<m_total>0</m_total>
+				<m_consigne>0</m_consigne>
+				<m_vol>0</m_vol>
+				<m_reserve>0</m_reserve>
+				<m_consomme>0</m_consomme>
+			</second>
+		</item>
+	</boissons>
+	<credit class_id="10" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>0</item_version>
+		<item class_id="11" tracking_level="0" version="0">
+			<first>2</first>
+			<second class_id="0" tracking_level="1" version="0" object_id="_0">
+				<mere class_id="12" tracking_level="0" version="0">
+					<m_date>1681653512</m_date>
+				</mere>
+				<m_id class_id="13" tracking_level="0" version="0">
+					<prenom>elie</prenom>
+					<nom>gedeon</nom>
+				</m_id>
+				<m_credit>10</m_credit>
+			</second>
+		</item>
+	</credit>
+	<debit class_id="14" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>0</item_version>
+		<item class_id="15" tracking_level="0" version="0">
+			<first>1</first>
+			<second class_id="1" tracking_level="1" version="0" object_id="_1">
+				<mere>
+					<m_date>1681653512</m_date>
+				</mere>
+				<m_boisson>biere</m_boisson>
+			</second>
+		</item>
+	</debit>
+	<mvtboisson class_id="16" tracking_level="0" version="0">
+		<count>0</count>
+		<item_version>0</item_version>
+	</mvtboisson>
+	<changeboisson class_id="17" tracking_level="0" version="0">
+		<count>0</count>
+		<item_version>0</item_version>
+	</changeboisson>
+	<changeetudiant class_id="18" tracking_level="0" version="0">
+		<count>0</count>
+		<item_version>0</item_version>
+	</changeetudiant>
+	<etudiants class_id="19" tracking_level="0" version="0">
+		<count>1</count>
+		<item_version>0</item_version>
+		<item class_id="20" tracking_level="0" version="0">
+			<first>
+				<prenom>elie</prenom>
+				<nom>gedeon</nom>
+			</first>
+			<second class_id="21" tracking_level="0" version="0">
+				<m_solde>0</m_solde>
+				<m_mdp class_id="22" tracking_level="0" version="0">
+					<var>337870342487359814</var>
+					<var>5755614502371743222</var>
+					<var>7692478966967919199</var>
+					<var>3412574087745733243</var>
+					<var>4801739009963593383</var>
+					<var>17955468827991689445</var>
+					<var>8952592316204712089</var>
+					<var>9348459434067279261</var>
+				</m_mdp>
+				<m_id>
+					<prenom>elie</prenom>
+					<nom>gedeon</nom>
+				</m_id>
+				<m_historique>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>2</item>
+					<item>1</item>
+				</m_historique>
+				<m_rf>1</m_rf>
+				<m_super_rf>1</m_super_rf>
+			</second>
+		</item>
+	</etudiants>
+	<numid class_id="23" tracking_level="0" version="0">
+		<m_id_courant>2</m_id_courant>
+	</numid>
+</bdd>

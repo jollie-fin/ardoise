@@ -1,0 +1,10 @@
+<?php
+include 'layout.php';
+ecrire("Gestion des commandes","
+<h2>Gestion des commandes</h2>
+<ul>
+<li><img src='images/arrow.gif' alt=''/><a href='bon_commande'>Passer une commande</a></li>
+<li><img src='images/arrow.gif' alt=''/><a href='reception_commande'>Receptionner une commande</a></li>
+</ul>
+"); 
+?>

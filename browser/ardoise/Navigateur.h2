@@ -1,0 +1,24 @@
+#include <QApplication>
+#include <QTranslator>
+#include <QLocale>
+#include <QLibraryInfo>
+#include <QtWebKit>
+#include <QtGui>
+
+class Navigateur : public QMainWindow
+{
+    Q_OBJECT
+
+    private:
+			QString origine;
+      QAction *actionreinitialise;
+      QWebView *pagenet;
+
+    public:
+        Navigateur(QString q);
+
+    private slots:
+			void reinitialise();
+
+};
+

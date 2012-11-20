@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="7">
+<boissons class_id="2" tracking_level="0" version="0">
+	<count>2</count>
+	<item_version>0</item_version>
+	<item class_id="3" tracking_level="0" version="0">
+		<first>biere</first>
+		<second class_id="4" tracking_level="0" version="0">
+			<m_nom>biere</m_nom>
+			<m_prix>10</m_prix>
+			<m_disponibilite>1</m_disponibilite>
+			<m_creation>1294999277</m_creation>
+			<m_modification>0</m_modification>
+			<m_stock>0</m_stock>
+			<m_total>0</m_total>
+			<m_consomme>0</m_consomme>
+		</second>
+	</item>
+	<item>
+		<first>biere2</first>
+		<second>
+			<m_nom>biere2</m_nom>
+			<m_prix>10</m_prix>
+			<m_disponibilite>1</m_disponibilite>
+			<m_creation>1294999277</m_creation>
+			<m_modification>0</m_modification>
+			<m_stock>0</m_stock>
+			<m_total>0</m_total>
+			<m_consomme>0</m_consomme>
+		</second>
+	</item>
+</boissons>
+<credit class_id="5" tracking_level="0" version="0">
+	<count>1</count>
+	<item_version>0</item_version>
+	<item class_id="6" tracking_level="0" version="0">
+		<first>2</first>
+		<second class_id="0" tracking_level="1" version="0" object_id="_0">
+			<m_id class_id="7" tracking_level="0" version="0">
+				<prenom>elie</prenom>
+				<nom>gedeon</nom>
+			</m_id>
+			<m_credit>10</m_credit>
+		</second>
+	</item>
+</credit>
+<debit class_id="8" tracking_level="0" version="0">
+	<count>1</count>
+	<item_version>0</item_version>
+	<item class_id="9" tracking_level="0" version="0">
+		<first>1</first>
+		<second class_id="1" tracking_level="1" version="0" object_id="_1">
+			<m_boisson>biere</m_boisson>
+		</second>
+	</item>
+</debit>
+<etudiants class_id="10" tracking_level="0" version="0">
+	<count>1</count>
+	<item_version>0</item_version>
+	<item class_id="11" tracking_level="0" version="0">
+		<first>
+			<prenom>elie</prenom>
+			<nom>gedeon</nom>
+		</first>
+		<second class_id="12" tracking_level="0" version="0">
+			<m_solde>-10</m_solde>
+			<m_mdp class_id="13" tracking_level="0" version="0">
+				<var>9938747028151809045</var>
+				<var>14389701782562837757</var>
+				<var>17023021765911633206</var>
+				<var>11982506239734943151</var>
+				<var>14695811417689286490</var>
+				<var>2218765513402919211</var>
+				<var>9822008912480310142</var>
+				<var>10890950288218262327</var>
+			</m_mdp>
+			<m_id>
+				<prenom>elie</prenom>
+				<nom>gedeon</nom>
+			</m_id>
+			<m_historique>
+				<count>2</count>
+				<item_version>0</item_version>
+				<item>2</item>
+				<item>1</item>
+			</m_historique>
+			<m_rf>1</m_rf>
+		</second>
+	</item>
+</etudiants>
+<numid class_id="15" tracking_level="0" version="0">
+	<m_id_courant>2</m_id_courant>
+</numid>

@@ -1,0 +1,20 @@
+#include "Navigateur.h"
+
+#include <iostream>
+        Navigateur::Navigateur(QString q)
+				{
+					origine = q;
+					pagenet = new QWebView();
+					reinitialise();
+					actionreinitialise = new QAction(tr("&reinitialise page"), this);
+    			actionreinitialise->setShortcut(Qt::Key_Escape);
+			    connect(actionreinitialise, SIGNAL(triggered()), this, SLOT(reinitialise()));
+					setCentralWidget(pagenet);
+					addAction(actionreinitialise);
+
+				}
+
+			void Navigateur::reinitialise()
+			{
+				pagenet->load(QUrl(origine));
+			}
